@@ -53,7 +53,7 @@
 
             bindings = <
 &kp TAB     &kp Q              &kp W                  &kp E                  &kp R             &kp T        &kp Y      &kp U            &kp I                   &kp O                   &kp P                  &kp BSPC
-&kp ESCAPE  &my_mt LEFT_ALT A  &my_mt LEFT_CONTROL S  &my_mt LEFT_COMMAND D  &my_mt LSHIFT F   &kp G        &kp H      &my_mt RSHIFT J  &my_mt RIGHT_COMMAND K  &my_mt RIGHT_CONTROL L  &my_mt RIGHT_ALT SEMI  &kp SQT
+&kp ESCAPE  &kp A              &kp S                  &kp D                  &kp F             &kp G        &kp H      &kp J            &kp K                   &kp L                   &kp SEMI               &kp SQT
 &kp LSHFT   &kp Z              &kp X                  &kp C                  &kp V             &kp B        &kp N      &kp M            &kp COMMA               &kp DOT                 &kp FSLH               &kp QUESTION
                                                       &kp LEFT_ALT            &kp LEFT_CONTROL &kp LEFT_COMMAND    &kp SPACE  &kp RET          &to 1
             >;
