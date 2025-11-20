@@ -67,8 +67,8 @@
                           &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND    &my_lt 1 SPACE  &my_lt 2 RET    &to 1
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            // Left encoder: Brightness Down/Up, Right encoder: Volume Down/Up 
+            sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         lower_layer {
@@ -85,7 +85,8 @@
                                      &to 0      &trans     &trans    &trans     &trans          &to 2
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            // Left encoder: Brightness Down/Up, Right encoder: Volume Down/Up 
+            sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         raise_layer {
@@ -102,7 +103,8 @@
                                   &to 1     &trans    &trans       &trans     &trans    &to 3
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            // Left encoder: Brightness Down/Up, Right encoder: Volume Down/Up 
+            sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         connection_layer {
@@ -119,7 +121,8 @@
                                         &to 2         &trans        &trans          &trans  &trans  &to 0
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        ķ   // Left encoder: Brightness Down/Up, Right encoder: Volume Down/Up 
+            sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
