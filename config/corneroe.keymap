@@ -121,7 +121,7 @@
                                         &to 2         &trans        &trans          &trans  &trans  &to 0
             >;
 
-        ķ   // Left encoder: Brightness Down/Up, Right encoder: Volume Down/Up 
+            // Left encoder: Brightness Down/Up, Right encoder: Volume Down/Up 
             sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
