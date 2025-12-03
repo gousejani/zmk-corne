@@ -48,6 +48,15 @@
             bindings = <&mo>, <&kp>;
             display-name = "My-Layer-Tap";
         };
+
+        my_llt: my_layer_layer_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <400>;
+            bindings = <&mo>, <&to>;
+            display-name = "My-Layer-Layer-Tap";
+        };
     };
 
     keymap {
@@ -64,7 +73,7 @@
 &kp TAB     &kp Q  &kp W  &kp E         &kp R             &kp T               &kp Y           &kp U           &kp I      &kp O    &kp P     &kp BSPC
 &kp ESCAPE  &kp A  &kp S  &kp D         &my_mt LSHFT F    &kp G               &kp H           &my_mt RSHFT J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C         &kp V             &kp B               &kp N           &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp QUESTION
-                          &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND    &my_lt 1 SPACE  &my_lt 2 RET    &to 1
+                          &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND    &my_lt 1 SPACE  &my_lt 2 RET    &my_llt 3 1
             >;
 
             // Left encoder: Brightness Down/Up, Right encoder: Volume Down/Up 
