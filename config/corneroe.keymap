@@ -62,7 +62,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        layer_0 {
             // -----------------------------------------------------------------------------------------
             // | TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | ESC  |  A  |  S  |  D  |SFT/F|  G  |   |  H  |SFT/J |  K  |  L  |  ;  |  '   |
@@ -80,7 +80,7 @@
             sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        lower_layer {
+        layer_1 {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
             // |      |  -  |  +  |  =  |  _  |     |   |  `  |  {  |  }  |  [  |  ]  |  |   |
@@ -98,7 +98,7 @@
             sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        raise_layer {
+        layer_2 {
             // -----------------------------------------------------------------------------------------
             // |  `   |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
             // |      |     |     |     |     |     |   | LFT | DWN |  UP | RGT |     |      |
@@ -116,7 +116,7 @@
             sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        connection_layer {
+        layer_3 {
             // -----------------------------------------------------------------------------------------
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |     |     |     |     |     |      |
             // |      |     |     |     |     |     |   |     |     |     |     |     |      |
