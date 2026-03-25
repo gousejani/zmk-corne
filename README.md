@@ -59,6 +59,7 @@ Typical workflow:
 ![My Corne Keyboard](images/keyboard_image.jpg)
 
 ### Key Layout Images
+Layout images are screenshots take from this tool [nickcoutsos keymap editor](https://nickcoutsos.github.io/keymap-editor/)
 
 #### Layer 0
 
